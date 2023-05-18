@@ -1,5 +1,5 @@
 # vsim tb -l top.log -c -do "log -r /*; run -all;quit" -wlf waveform.wlf 
-# Start time: 12:38:44 on May 17,2023
+# Start time: 09:55:15 on May 18,2023
 # ** Note: (vsim-3812) Design is being optimized...
 # //  Questa Sim
 # //  Version 10.6c linux Jul 25 2017
@@ -15,5 +15,195 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# End time: 12:39:35 on May 17,2023, Elapsed time: 0:00:51
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.top_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.apb_if(fast)
+# Loading /tools/mentor/questasim_10.6c/questasim/uvm-1.1d/linux/uvm_dpi.so
+# log -r /*
+#  run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test test...
+# UVM_INFO driver.sv(32) @ 0: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+# UVM_INFO driver.sv(32) @ 10: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+# UVM_INFO monitor.sv(27) @ 10: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+# UVM_INFO scoreboard.sv(24) @ 10: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+# ----------------------------------------------------------------
+# UVM_INFO monitor.sv(27) @ 30: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+# UVM_INFO scoreboard.sv(24) @ 30: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(32) @ 30: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+# UVM_INFO driver.sv(32) @ 50: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+# UVM_INFO monitor.sv(27) @ 50: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+# UVM_INFO scoreboard.sv(24) @ 50: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+# ----------------------------------------------------------------
+# UVM_INFO monitor.sv(27) @ 70: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+# UVM_INFO scoreboard.sv(24) @ 70: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(32) @ 70: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+# UVM_INFO monitor.sv(27) @ 90: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+# UVM_INFO scoreboard.sv(24) @ 90: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 110: uvm_test_top.env.a.d [DRV] mode:writed, addr:3, wdata:1593076644, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 170: uvm_test_top.env.a.m [MON] DATA WRITE addr:3 data:1593076644 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 170: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:3, wdata:1593076644 arr_wr:1593076644
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 190: uvm_test_top.env.a.d [DRV] mode:writed, addr:27, wdata:2994403308, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 230: uvm_test_top.env.a.m [MON] DATA WRITE addr:27 data:2994403308 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 230: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:27, wdata:2994403308 arr_wr:2994403308
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 250: uvm_test_top.env.a.d [DRV] mode:writed, addr:23, wdata:1107421411, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 290: uvm_test_top.env.a.m [MON] DATA WRITE addr:23 data:1107421411 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 290: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:23, wdata:1107421411 arr_wr:1107421411
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 310: uvm_test_top.env.a.d [DRV] mode:writed, addr:0, wdata:4225242829, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 350: uvm_test_top.env.a.m [MON] DATA WRITE addr:0 data:4225242829 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 350: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:0, wdata:4225242829 arr_wr:4225242829
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 370: uvm_test_top.env.a.d [DRV] mode:writed, addr:12, wdata:871603454, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 410: uvm_test_top.env.a.m [MON] DATA WRITE addr:12 data:871603454 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 410: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:12, wdata:871603454 arr_wr:871603454
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 430: uvm_test_top.env.a.d [DRV] mode:writed, addr:28, wdata:2662850904, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 470: uvm_test_top.env.a.m [MON] DATA WRITE addr:28 data:2662850904 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 470: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:28, wdata:2662850904 arr_wr:2662850904
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 490: uvm_test_top.env.a.d [DRV] mode:writed, addr:0, wdata:4047750594, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 530: uvm_test_top.env.a.m [MON] DATA WRITE addr:0 data:4047750594 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 530: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:0, wdata:4047750594 arr_wr:4047750594
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 550: uvm_test_top.env.a.d [DRV] mode:writed, addr:2, wdata:839763924, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 590: uvm_test_top.env.a.m [MON] DATA WRITE addr:2 data:839763924 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 590: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:2, wdata:839763924 arr_wr:839763924
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 610: uvm_test_top.env.a.d [DRV] mode:writed, addr:6, wdata:2008768365, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 650: uvm_test_top.env.a.m [MON] DATA WRITE addr:6 data:2008768365 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 650: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:6, wdata:2008768365 arr_wr:2008768365
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 670: uvm_test_top.env.a.d [DRV] mode:writed, addr:8, wdata:1890223028, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 710: uvm_test_top.env.a.m [MON] DATA WRITE addr:8 data:1890223028 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 710: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:8, wdata:1890223028 arr_wr:1890223028
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 730: uvm_test_top.env.a.d [DRV] mode:writed, addr:10, wdata:913735212, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 770: uvm_test_top.env.a.m [MON] DATA WRITE addr:10 data:913735212 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 770: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:10, wdata:913735212 arr_wr:913735212
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 790: uvm_test_top.env.a.d [DRV] mode:writed, addr:7, wdata:3396538688, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 830: uvm_test_top.env.a.m [MON] DATA WRITE addr:7 data:3396538688 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 830: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:7, wdata:3396538688 arr_wr:3396538688
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 850: uvm_test_top.env.a.d [DRV] mode:writed, addr:21, wdata:2688205446, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 890: uvm_test_top.env.a.m [MON] DATA WRITE addr:21 data:2688205446 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 890: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:21, wdata:2688205446 arr_wr:2688205446
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 910: uvm_test_top.env.a.d [DRV] mode:writed, addr:19, wdata:3914871822, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 950: uvm_test_top.env.a.m [MON] DATA WRITE addr:19 data:3914871822 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 950: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:19, wdata:3914871822 arr_wr:3914871822
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(64) @ 970: uvm_test_top.env.a.d [DRV] mode:writed, addr:28, wdata:2055216064, rdata:x, slverr:x
+# UVM_INFO monitor.sv(37) @ 1010: uvm_test_top.env.a.m [MON] DATA WRITE addr:28 data:2055216064 slverr:0
+# UVM_INFO scoreboard.sv(35) @ 1010: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:28, wdata:2055216064 arr_wr:2055216064
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1030: uvm_test_top.env.a.d [DRV] mode:readd, addr:26, wdata:984964732, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1070: uvm_test_top.env.a.m [MON] DATA READ addr:26 data:0 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1070: uvm_test_top.env.s [SCO] DATA MATCHED : addr:26, rdata:0
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1090: uvm_test_top.env.a.d [DRV] mode:readd, addr:3, wdata:3575057999, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1130: uvm_test_top.env.a.m [MON] DATA READ addr:3 data:1593076644 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1130: uvm_test_top.env.s [SCO] DATA MATCHED : addr:3, rdata:1593076644
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1150: uvm_test_top.env.a.d [DRV] mode:readd, addr:4, wdata:3590969932, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1190: uvm_test_top.env.a.m [MON] DATA READ addr:4 data:0 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1190: uvm_test_top.env.s [SCO] DATA MATCHED : addr:4, rdata:0
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1210: uvm_test_top.env.a.d [DRV] mode:readd, addr:8, wdata:1904381384, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1250: uvm_test_top.env.a.m [MON] DATA READ addr:8 data:1890223028 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1250: uvm_test_top.env.s [SCO] DATA MATCHED : addr:8, rdata:1890223028
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1270: uvm_test_top.env.a.d [DRV] mode:readd, addr:15, wdata:1732943603, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1310: uvm_test_top.env.a.m [MON] DATA READ addr:15 data:0 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1310: uvm_test_top.env.s [SCO] DATA MATCHED : addr:15, rdata:0
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1330: uvm_test_top.env.a.d [DRV] mode:readd, addr:25, wdata:3389989144, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1370: uvm_test_top.env.a.m [MON] DATA READ addr:25 data:0 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1370: uvm_test_top.env.s [SCO] DATA MATCHED : addr:25, rdata:0
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1390: uvm_test_top.env.a.d [DRV] mode:readd, addr:2, wdata:1230910603, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1430: uvm_test_top.env.a.m [MON] DATA READ addr:2 data:839763924 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1430: uvm_test_top.env.s [SCO] DATA MATCHED : addr:2, rdata:839763924
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1450: uvm_test_top.env.a.d [DRV] mode:readd, addr:9, wdata:967117632, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1490: uvm_test_top.env.a.m [MON] DATA READ addr:9 data:0 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1490: uvm_test_top.env.s [SCO] DATA MATCHED : addr:9, rdata:0
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1510: uvm_test_top.env.a.d [DRV] mode:readd, addr:23, wdata:1498605154, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1550: uvm_test_top.env.a.m [MON] DATA READ addr:23 data:1107421411 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1550: uvm_test_top.env.s [SCO] DATA MATCHED : addr:23, rdata:1107421411
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1570: uvm_test_top.env.a.d [DRV] mode:readd, addr:16, wdata:3625549938, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1610: uvm_test_top.env.a.m [MON] DATA READ addr:16 data:0 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1610: uvm_test_top.env.s [SCO] DATA MATCHED : addr:16, rdata:0
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1630: uvm_test_top.env.a.d [DRV] mode:readd, addr:3, wdata:535703640, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1670: uvm_test_top.env.a.m [MON] DATA READ addr:3 data:1593076644 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1670: uvm_test_top.env.s [SCO] DATA MATCHED : addr:3, rdata:1593076644
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1690: uvm_test_top.env.a.d [DRV] mode:readd, addr:31, wdata:2959690009, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1730: uvm_test_top.env.a.m [MON] DATA READ addr:31 data:0 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1730: uvm_test_top.env.s [SCO] DATA MATCHED : addr:31, rdata:0
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1750: uvm_test_top.env.a.d [DRV] mode:readd, addr:6, wdata:560607882, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1790: uvm_test_top.env.a.m [MON] DATA READ addr:6 data:2008768365 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1790: uvm_test_top.env.s [SCO] DATA MATCHED : addr:6, rdata:2008768365
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1810: uvm_test_top.env.a.d [DRV] mode:readd, addr:25, wdata:296163580, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1850: uvm_test_top.env.a.m [MON] DATA READ addr:25 data:0 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1850: uvm_test_top.env.s [SCO] DATA MATCHED : addr:25, rdata:0
+# ----------------------------------------------------------------
+# UVM_INFO driver.sv(78) @ 1870: uvm_test_top.env.a.d [DRV] mode:readd, addr:20, wdata:2148795992, rdata:x, slverr:x
+# UVM_INFO monitor.sv(47) @ 1910: uvm_test_top.env.a.m [MON] DATA READ addr:20 data:0 slverr:0
+# UVM_INFO scoreboard.sv(48) @ 1910: uvm_test_top.env.s [SCO] DATA MATCHED : addr:20, rdata:0
+# ----------------------------------------------------------------
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 1930: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  109
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [DRV]    35
+# [MON]    35
+# [Questa UVM]     2
+# [RNTST]     1
+# [SCO]    35
+# [TEST_DONE]     1
+# ** Note: $finish    : /tools/mentor/questasim_10.6c/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1930 ns  Iteration: 54  Instance: /tb
+# End time: 09:55:39 on May 18,2023, Elapsed time: 0:00:24
 # Errors: 0, Warnings: 0
